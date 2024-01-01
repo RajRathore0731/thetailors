@@ -12,7 +12,7 @@ export default function App() {
       <Services/>
       <TagLine/>
       <CustomDesign/>
-      <Footer/>
+      {/* <Footer/> */}
     </>
   )
 }
