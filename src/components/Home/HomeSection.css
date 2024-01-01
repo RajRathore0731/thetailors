@@ -161,6 +161,10 @@
 /* ========================== */
 
 @media(max-width:760px){
+    #home{
+        height: 60vh;
+        color: white;
+    }
     .home_nav-container{
         justify-content: center;
     }
