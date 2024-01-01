@@ -5,8 +5,8 @@ import {About, CustomDesign, Footer, HomeSection, Navigation,After, Services,Tag
 export default function App() {
   return (
     <>
-        <Navigation/> 
-        <HomeSection/>
+      <Navigation/> 
+      <HomeSection/>
       <About/>
       <After/>
       <Services/>
