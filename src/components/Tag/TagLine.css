@@ -1,0 +1,60 @@
+#tagLine{
+    padding: 30px 10px;
+    background-color: #000000;
+    color: wheat;
+    overflow: hidden;
+    /* z-index: auto;   */
+}
+.tag_container{
+    position: relative;
+    max-width: 1300px;
+    margin: auto;
+}
+.innerTag{
+    width: 120%;
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translateY(-50%);
+    animation: slide 30s linear infinite;
+    animation-delay: 3s;
+}
+.paraLine{
+    
+    font-size: 22px;
+    text-align: center;
+    font-family: cursive;
+    font-style: italic;
+    text-transform: capitalize;
+    color: gray;
+    letter-spacing: 1px;
+}
+@keyframes slide{
+    0%{
+        left: 100%;
+    }
+    100%{
+        left: -100%;
+    }
+}
+
+@media(max-width:1080){
+    .innerTag{
+        width: 200%;
+    }
+    .paraLine{
+        font-size: 20px;
+    }
+}
+
+
+@media(max-width:900px){
+    .innerTag{
+        width: 300%;
+    }
+    .paraLine{
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,45 @@
+nav{
+    width: 100%;
+    position: fixed;
+    top: 1000;
+    background-color: rgb(255, 248, 232);
+    z-index: auto;
+}
+
+.nav_container{
+    display: flex;
+    max-width: 90%;
+    margin: auto;
+    padding: 5px 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav_logo{
+    font-size: 38px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+.nav_menu{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+.nav_menu li{
+    padding: 15px 20px;
+}
+.nav_menu li a{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+    font-weight: 500;
+    color: black;
+    cursor: pointer;
+}
+
+.nav_info{
+    font-size: 20px;
+    font-style: italic;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
